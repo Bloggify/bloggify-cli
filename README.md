@@ -40,23 +40,6 @@ Examples:
 Documentation can be found at https://github.com/IonicaBizau/bloggify-cli#readme.
 ```
 
-## :clipboard: Example
-
-
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
-
-```sh
-$ npm i --save bloggify-cli
-```
-
-
-
-```js
-const bloggifyCli = require("bloggify-cli");
-
-console.log(bloggifyCli());
-```
-
 ## :memo: Documentation
 
 For full API reference, see the [DOCUMENTATION.md][docs] file.
