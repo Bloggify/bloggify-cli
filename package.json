@@ -30,14 +30,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/bloggify-cli.git"
+    "url": "git+ssh://git@github.com/Bloggify/bloggify-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/bloggify-cli/issues"
+    "url": "https://github.com/Bloggify/bloggify-cli/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-cli#readme",
+  "homepage": "https://github.com/Bloggify/bloggify-cli#readme",
   "dependencies": {
-    "bloggify-prebuilt": "ionicabizau/bloggify-prebuilt",
+    "bloggify-prebuilt": "^1.0.0",
     "bug-killer": "^4.2.3",
     "tilda": "^4.3.1"
   }
