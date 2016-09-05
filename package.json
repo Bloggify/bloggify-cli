@@ -1,6 +1,9 @@
 {
   "name": "bloggify-cli",
   "description": "CLI for Bloggify.",
+  "bin": {
+    "bloggify": "./bin/bloggify"
+  },
   "keywords": [
     "bloggify",
     "cli",
@@ -32,5 +35,10 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/bloggify-cli/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-cli#readme"
+  "homepage": "https://github.com/IonicaBizau/bloggify-cli#readme",
+  "dependencies": {
+    "bloggify-prebuilt": "ionicabizau/bloggify-prebuilt",
+    "bug-killer": "^4.2.3",
+    "tilda": "^4.3.1"
+  }
 }
