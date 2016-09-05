@@ -37,7 +37,7 @@ Examples:
   $ bloggify stop
   $ bloggify start -c path/to/config/file.json
 
-Documentation can be found at https://github.com/IonicaBizau/bloggify-cli#readme.
+Documentation can be found at https://github.com/Bloggify/bloggify-cli#readme.
 ```
 
 ## :memo: Documentation
