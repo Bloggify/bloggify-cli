@@ -9,6 +9,8 @@ const Tilda = require("tilda")
     , Logger = require("bug-killer")
     ;
 
+process.stdin.isTTY = true;
+
 let parser = new Tilda(`${__dirname}/../package.json`, {
     examples: [
         "bloggify start"
