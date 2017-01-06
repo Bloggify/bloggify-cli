@@ -2,8 +2,6 @@
 
 "use strict";
 
-console.log("Starting");
-
 const Tilda = require("tilda")
     , Bloggify = require("bloggify-prebuilt")
     , Logger = require("bug-killer")
@@ -14,7 +12,7 @@ process.stdin.isTTY = true;
 let parser = new Tilda(`${__dirname}/../package.json`, {
     examples: [
         "bloggify start"
-      , "bloggify stop"
+      , "bloggify debug"
       , "bloggify start -c path/to/config/file.json"
     ]
 }).action([
@@ -59,7 +57,6 @@ let parser = new Tilda(`${__dirname}/../package.json`, {
       , desc: "Stops the Bloggify process."
     }
 ]).on("start", action => {
-    console.log("Action");
     Logger.log("Start.");
     let opts = {};
 
