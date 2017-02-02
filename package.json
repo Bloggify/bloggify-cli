@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/Bloggify/bloggify-cli#readme",
   "dependencies": {
+    "bloggify": "^1.0.0",
     "bloggify-prebuilt": "^1.0.0",
     "bug-killer": "^4.2.3",
     "tilda": "^4.3.1"
